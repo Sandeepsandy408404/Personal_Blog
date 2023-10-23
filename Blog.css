@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    display: flex;
+    background-image: url(Sandy-pic-2.JPG);
+    background-size: cover;
+    
+
+
+}
+.banner-1{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    
+}
+.pic{
+    width: 375px;
+    height: 562px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    opacity: 1;
+}
+.banner-2{
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    row-gap: 10px;
+
+}
+.links{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-around;
+    margin: 50px 0px;
+    
+}
+.link-1{
+    width: 20%;
+    /* height: 150px; */
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.symbol-1{
+    font-size: 150px;
+    color: rgb(179, 25, 48);
+}
+.symbol-1:hover{
+    transform: scale(.8);
+}
+.symbol-2{
+    font-size: 150px;
+    color: rgb(11, 74, 11);
+}
+.symbol-2:hover{
+    transform: scale(.8);
+}
+.symbol-3{
+    font-size: 150px;
+    color: rgb(37, 37, 117);
+}
+.symbol-3:hover{
+    transform: scale(.8);
+}
+.symbol-4{
+    font-size: 150px;
+    color: black;
+}
+.symbol-4:hover{
+    transform: scale(.8);
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(65, 64, 64);
+    display: flex;
+
+}
+.button{
+    padding: 10px 25px;
+    font-size: 22px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+    transition: .5s;
+}
+.footer-1{
+    width: 25%;
+    padding: 100px 0px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    color: white;
+}
+.footer-2{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-2-child{
+    width: 90%;
+    height: 90%;
+    /* background-color: blue; */
+}
+.items{
+    width: 25%;
+    padding-top: 100px;
+    row-gap: 10px;
+    color: white;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
