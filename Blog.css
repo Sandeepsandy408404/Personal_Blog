@@ -155,3 +155,5 @@
     flex-direction: column;
     align-items: center;
 }
+.items:hover{
+    color: blue;
